@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-30T17:20:39 IST" name="Suite1" finished-at="2022-05-30T17:21:11 IST" duration-ms="31902">
+    <groups>
+    </groups>
+    <test started-at="2022-05-30T17:20:39 IST" name="ChromeTest" finished-at="2022-05-30T17:20:55 IST" duration-ms="15438">
+      <class name="testjava.TestNgprac">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testjava.TestNgprac@c267ef4]" started-at="2022-05-30T17:20:39 IST" name="launchBrowser" finished-at="2022-05-30T17:20:41 IST" duration-ms="1272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:testjava.TestNgprac@c267ef4]" started-at="2022-05-30T17:20:41 IST" name="launchbrowser" finished-at="2022-05-30T17:20:41 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method is-config="true" signature="loginpage()[pri:0, instance:testjava.TestNgprac@c267ef4]" started-at="2022-05-30T17:20:41 IST" name="loginpage" finished-at="2022-05-30T17:20:45 IST" duration-ms="3889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method signature="verifyaddcart()[pri:0, instance:testjava.TestNgprac@c267ef4]" started-at="2022-05-30T17:20:45 IST" name="verifyaddcart" finished-at="2022-05-30T17:20:47 IST" duration-ms="2245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyaddcart -->
+        <test-method is-config="true" signature="verifylogout(org.testng.ITestResult)[pri:0, instance:testjava.TestNgprac@c267ef4]" started-at="2022-05-30T17:20:47 IST" name="verifylogout" finished-at="2022-05-30T17:20:50 IST" duration-ms="3329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyaddcart status=SUCCESS method=TestNgprac.verifyaddcart()[pri:0, instance:testjava.TestNgprac@c267ef4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogout -->
+        <test-method is-config="true" signature="loginpage()[pri:0, instance:testjava.TestNgprac@c267ef4]" started-at="2022-05-30T17:20:50 IST" name="loginpage" finished-at="2022-05-30T17:20:51 IST" duration-ms="498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method signature="verifydrop()[pri:0, instance:testjava.TestNgprac@c267ef4]" started-at="2022-05-30T17:20:51 IST" name="verifydrop" finished-at="2022-05-30T17:20:51 IST" duration-ms="363" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/inventory.htmp]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/inventory.htmp]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at testjava.TestNgprac.verifydrop(TestNgprac.java:91)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydrop -->
+        <test-method is-config="true" signature="verifylogout(org.testng.ITestResult)[pri:0, instance:testjava.TestNgprac@c267ef4]" started-at="2022-05-30T17:20:51 IST" name="verifylogout" finished-at="2022-05-30T17:20:55 IST" duration-ms="3648" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifydrop status=FAILURE method=TestNgprac.verifydrop()[pri:0, instance:testjava.TestNgprac@c267ef4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogout -->
+        <test-method is-config="true" signature="clearbrowesr()[pri:0, instance:testjava.TestNgprac@c267ef4]" started-at="2022-05-30T17:20:55 IST" name="clearbrowesr" finished-at="2022-05-30T17:20:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearbrowesr -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:testjava.TestNgprac@c267ef4]" started-at="2022-05-30T17:20:55 IST" name="closebrowser" finished-at="2022-05-30T17:20:55 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- testjava.TestNgprac -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-05-30T17:20:55 IST" name="FirefoxTest" finished-at="2022-05-30T17:21:11 IST" duration-ms="16440">
+      <class name="testjava.TestNgprac">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testjava.TestNgprac@dbf57b3]" started-at="2022-05-30T17:20:55 IST" name="launchBrowser" finished-at="2022-05-30T17:20:57 IST" duration-ms="2027" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:testjava.TestNgprac@dbf57b3]" started-at="2022-05-30T17:20:57 IST" name="launchbrowser" finished-at="2022-05-30T17:20:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method is-config="true" signature="loginpage()[pri:0, instance:testjava.TestNgprac@dbf57b3]" started-at="2022-05-30T17:20:57 IST" name="loginpage" finished-at="2022-05-30T17:21:01 IST" duration-ms="3740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method signature="verifyaddcart()[pri:0, instance:testjava.TestNgprac@dbf57b3]" started-at="2022-05-30T17:21:01 IST" name="verifyaddcart" finished-at="2022-05-30T17:21:03 IST" duration-ms="2155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyaddcart -->
+        <test-method is-config="true" signature="verifylogout(org.testng.ITestResult)[pri:0, instance:testjava.TestNgprac@dbf57b3]" started-at="2022-05-30T17:21:03 IST" name="verifylogout" finished-at="2022-05-30T17:21:06 IST" duration-ms="3319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyaddcart status=SUCCESS method=TestNgprac.verifyaddcart()[pri:0, instance:testjava.TestNgprac@dbf57b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogout -->
+        <test-method is-config="true" signature="loginpage()[pri:0, instance:testjava.TestNgprac@dbf57b3]" started-at="2022-05-30T17:21:06 IST" name="loginpage" finished-at="2022-05-30T17:21:07 IST" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method signature="verifydrop()[pri:0, instance:testjava.TestNgprac@dbf57b3]" started-at="2022-05-30T17:21:07 IST" name="verifydrop" finished-at="2022-05-30T17:21:07 IST" duration-ms="469" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/inventory.htmp]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/inventory.htmp]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at testjava.TestNgprac.verifydrop(TestNgprac.java:91)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydrop -->
+        <test-method is-config="true" signature="verifylogout(org.testng.ITestResult)[pri:0, instance:testjava.TestNgprac@dbf57b3]" started-at="2022-05-30T17:21:07 IST" name="verifylogout" finished-at="2022-05-30T17:21:10 IST" duration-ms="3419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifydrop status=FAILURE method=TestNgprac.verifydrop()[pri:0, instance:testjava.TestNgprac@dbf57b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:testjava.TestNgprac@dbf57b3]" started-at="2022-05-30T17:21:10 IST" name="closebrowser" finished-at="2022-05-30T17:21:11 IST" duration-ms="790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="clearbrowesr()[pri:0, instance:testjava.TestNgprac@dbf57b3]" started-at="2022-05-30T17:21:10 IST" name="clearbrowesr" finished-at="2022-05-30T17:21:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearbrowesr -->
+      </class> <!-- testjava.TestNgprac -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite1 -->
+</testng-results>
